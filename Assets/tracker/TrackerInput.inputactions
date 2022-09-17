@@ -1,0 +1,62 @@
+{
+    "name": "TrackerInput",
+    "maps": [
+        {
+            "name": "ViveTracker Left",
+            "id": "c464d004-87c8-491e-a86a-866de148b4ad",
+            "actions": [
+                {
+                    "name": "position",
+                    "type": "Value",
+                    "id": "1cd5876b-f966-4d61-a568-8d7a17c6cffe",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2e85c150-1b08-4589-9332-7eece78aeae7",
+                    "path": "<XRViveTracker>{Left Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ViveTracker Right",
+            "id": "1f2a2311-994b-4a3b-beae-609231b90799",
+            "actions": [
+                {
+                    "name": "position",
+                    "type": "Value",
+                    "id": "2a7ef6ab-311b-4f75-a296-bd4cf037ae24",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0afdd714-72dc-4aac-a1b5-462fa7984906",
+                    "path": "<XRViveTracker>{Right Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
